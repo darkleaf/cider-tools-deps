@@ -12,3 +12,5 @@ deps.edn:
           :main-opts ["-m" "darkleaf.cider-tools-deps"
                       "port" "8888" "host" "0.0.0.0"]}}}
 ```
+
+usage: `clojure -Acider`
