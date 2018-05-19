@@ -1,2 +1,2 @@
-{:deps {cider/cider-nrepl {:mvn/version "0.17.0-SNAPSHOT"}
+{:deps {cider/cider-nrepl {:mvn/version "0.18.0-SNAPSHOT"}
         org.clojure/tools.nrepl {:mvn/version "0.2.12"}}}
