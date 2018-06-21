@@ -8,7 +8,7 @@ deps.edn:
 {:aliases
  {:cider {:extra-deps {darkleaf/cider-tools-deps
                        {:git/url "https://github.com/darkleaf/cider-tools-deps.git"
-                        :sha "3e6e5ce5cc7a9b9c99e43fb54c7280f8933c85da"}}
+                        :sha "1025b510db24b36ab741bc5599e36806eec904ec"}}
           :main-opts ["-m" "darkleaf.cider-tools-deps"
                       "port" "8888" "host" "0.0.0.0"]}}}
 ```
