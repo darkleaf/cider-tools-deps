@@ -1,7 +1,6 @@
 (ns darkleaf.cider-tools-deps
   (:require
-   [clojure.tools.nrepl.server :as nrepl-server]
-   [refactor-nrepl.middleware :as refactor]))
+   [clojure.tools.nrepl.server :as nrepl-server]))
 
 (defn- nrepl-handler []
   (require 'cider.nrepl)
@@ -11,5 +10,4 @@
                 :or {port 4444, host "127.0.0.1"}}]
   (prn (nrepl-server/start-server :port (bigint port)
                                   :bind host
-                                  :handler (-> (nrepl-handler)
-                                               refactor/wrap-refactor))))
+                                  :handler (nrepl-handler))))
